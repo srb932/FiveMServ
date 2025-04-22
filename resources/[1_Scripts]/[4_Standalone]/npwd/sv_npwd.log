@@ -2119,3 +2119,356 @@
 {"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 101.7881ms'","module":"DBInterface","timestamp":"2025-04-21T22:24:51.218Z"}
 {"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 4.7173ms'","module":"DBInterface","timestamp":"2025-04-21T22:24:51.223Z"}
 {"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-21T22:24:51.223Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-04-21T22:43:50.018Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-04-21T22:43:50.019Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-04-21T22:43:50.020Z"}
+{"level":"info","message":"Loading ESX bridge....","timestamp":"2025-04-21T22:43:50.020Z"}
+{"level":"info","message":"ESX bridge initialized","timestamp":"2025-04-21T22:43:50.020Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-04-21T22:43:50.020Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-04-21T22:43:50.020Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-04-21T22:43:50.021Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-04-21T22:43:50.021Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-04-21T22:43:50.033Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-04-21T22:43:50.034Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-04-21T22:43:50.034Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-04-21T22:43:50.278Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-04-21T22:43:50.292Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 96.5007ms'","module":"DBInterface","timestamp":"2025-04-21T22:43:50.375Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 2.5696ms'","module":"DBInterface","timestamp":"2025-04-21T22:43:50.378Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-21T22:43:50.378Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-04-21T22:59:23.034Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-04-21T22:59:23.035Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-04-21T22:59:23.036Z"}
+{"level":"info","message":"Loading ESX bridge....","timestamp":"2025-04-21T22:59:23.036Z"}
+{"level":"info","message":"ESX bridge initialized","timestamp":"2025-04-21T22:59:23.036Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-04-21T22:59:23.036Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-04-21T22:59:23.036Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-04-21T22:59:23.037Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-04-21T22:59:23.037Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-04-21T22:59:23.050Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-04-21T22:59:23.050Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-04-21T22:59:23.051Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-04-21T22:59:23.393Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-04-21T22:59:23.408Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 98.705ms'","module":"DBInterface","timestamp":"2025-04-21T22:59:23.493Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 3.1723ms'","module":"DBInterface","timestamp":"2025-04-21T22:59:23.496Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-21T22:59:23.496Z"}
+{"level":"info","message":"Executed query (SELECT phone_number FROM users WHERE identifier = ? LIMIT 1 [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 20.3989ms'","module":"DBInterface","timestamp":"2025-04-21T23:01:25.708Z"}
+{"level":"debug","message":"Find user for number generation data >","module":"player","timestamp":"2025-04-21T23:01:25.709Z"}
+{"level":"debug","message":[{"phone_number":"862-952-74"}],"module":"player","timestamp":"2025-04-21T23:01:25.709Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (56fc78a03fae9ac861ff2a63fdb6b251cb30e085)","module":"player","timestamp":"2025-04-21T23:01:25.709Z"}
+{"level":"debug","message":{"_firstname":"Mamad","_identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","_lastname":"Mamad","_phoneNumber":"862-952-74","source":1,"username":"Tiago Garcia"},"module":"player","timestamp":"2025-04-21T23:01:25.710Z"}
+{"level":"info","message":"Executed query (SELECT phone_number FROM users WHERE identifier = ? LIMIT 1 [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 20.7787ms'","module":"DBInterface","timestamp":"2025-04-21T23:01:25.712Z"}
+{"level":"debug","message":"Find user for number generation data >","module":"player","timestamp":"2025-04-21T23:01:25.712Z"}
+{"level":"info","message":"Executed query (SELECT phone_number FROM users WHERE identifier = ? LIMIT 1 [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 17.3867ms'","module":"DBInterface","timestamp":"2025-04-21T23:01:25.714Z"}
+{"level":"debug","message":[{"phone_number":"862-952-74"}],"module":"player","timestamp":"2025-04-21T23:01:25.712Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (56fc78a03fae9ac861ff2a63fdb6b251cb30e085)","module":"player","timestamp":"2025-04-21T23:01:25.712Z"}
+{"level":"debug","message":{"_firstname":"Francis","_identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","_lastname":"Mamad","_phoneNumber":"862-952-74","source":1,"username":"Tiago Garcia"},"module":"player","timestamp":"2025-04-21T23:01:25.712Z"}
+{"level":"debug","message":"Find user for number generation data >","module":"player","timestamp":"2025-04-21T23:01:25.714Z"}
+{"level":"debug","message":[{"phone_number":"862-952-74"}],"module":"player","timestamp":"2025-04-21T23:01:25.714Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (56fc78a03fae9ac861ff2a63fdb6b251cb30e085)","module":"player","timestamp":"2025-04-21T23:01:25.714Z"}
+{"level":"debug","message":{"_firstname":"Francis","_identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","_lastname":"Mamad","_phoneNumber":"862-952-74","source":1,"username":"Tiago Garcia"},"module":"player","timestamp":"2025-04-21T23:01:25.714Z"}
+{"level":"silly","message":"netPromise > npwd:fetchTweets > RequestObj","module":"events","timestamp":"2025-04-21T23:01:26.172Z"}
+{"level":"silly","message":{"data":{"pageId":0},"source":1},"module":"events","timestamp":"2025-04-21T23:01:26.172Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 8.6157ms'","module":"DBInterface","timestamp":"2025-04-21T23:01:26.182Z"}
+{"level":"info","message":"Executed query (\n        SELECT \n  npwd_twitter_tweets.id,\n  npwd_twitter_tweets.identifier,\n  npwd_twitter_profiles.id AS profile_id,\n  npwd_twitter_profiles.profile_name,\n  npwd_twitter_profiles.avatar_url,\n  npwd_twitter_tweets.likes,\n  npwd_twitter_tweets.visible,\n  IFNULL(COALESCE(retweets.message, npwd_twitter_tweets.message), '') AS message,\n  IFNULL(COALESCE(retweets.images, npwd_twitter_tweets.images), '') AS images,\n  npwd_twitter_tweets.retweet IS NOT NULL AS isRetweet,\n  retweets.id AS retweetId,\n  retweets_profiles.profile_name AS retweetProfileName,\n  retweets_profiles.avatar_url AS retweetAvatarUrl,\n  npwd_twitter_likes.id IS NOT NULL AS isLiked,\n  npwd_twitter_reports.id IS NOT NULL AS isReported,\n  npwd_twitter_tweets.createdAt,\n  npwd_twitter_tweets.updatedAt,\n  TIME_TO_SEC(TIMEDIFF( NOW(), npwd_twitter_tweets.createdAt)) AS seconds_since_tweet\n\n        FROM npwd_twitter_tweets\n                 LEFT OUTER JOIN npwd_twitter_profiles\n                                 ON npwd_twitter_tweets.identifier = npwd_twitter_profiles.identifier\n                 LEFT OUTER JOIN npwd_twitter_likes ON npwd_twitter_tweets.id = npwd_twitter_likes.tweet_id AND\n                                                       npwd_twitter_likes.profile_id = ?\n                 LEFT OUTER JOIN npwd_twitter_reports ON npwd_twitter_tweets.id = npwd_twitter_reports.tweet_id AND\n                                                         npwd_twitter_reports.profile_id = ?\n                 LEFT OUTER JOIN npwd_twitter_tweets AS retweets ON retweets.id = npwd_twitter_tweets.retweet\n                 LEFT OUTER JOIN npwd_twitter_profiles AS retweets_profiles\n                                 ON retweets.identifier = retweets_profiles.identifier\n        WHERE npwd_twitter_tweets.visible = 1\n        ORDER BY id DESC\n        LIMIT ? OFFSET ?\n\t\t [1,1,\"25\",\"0\"]) in 11.4039ms'","module":"DBInterface","timestamp":"2025-04-21T23:01:26.193Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchTweets:e9a1ed24-abe3-4c4f-83cd-6ab7f771fa25 (21.2487ms), Data >>","module":"events","timestamp":"2025-04-21T23:01:26.194Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-04-21T23:01:26.194Z"}
+{"level":"silly","message":"netPromise > npwd:getOrCreateTwitterProfile > RequestObj","module":"events","timestamp":"2025-04-21T23:01:26.324Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-04-21T23:01:26.325Z"}
+{"level":"silly","message":"netPromise > phone:getMyProfile > RequestObj","module":"events","timestamp":"2025-04-21T23:01:26.325Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-04-21T23:01:26.325Z"}
+{"level":"silly","message":"netPromise > npwd:fetchMessageGroups > RequestObj","module":"events","timestamp":"2025-04-21T23:01:26.326Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-04-21T23:01:26.326Z"}
+{"level":"silly","message":"netPromise > npwd-contact-getAll > RequestObj","module":"events","timestamp":"2025-04-21T23:01:26.326Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-04-21T23:01:26.326Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 4.132ms'","module":"DBInterface","timestamp":"2025-04-21T23:01:26.329Z"}
+{"level":"silly","message":"Response Promise Event npwd:getOrCreateTwitterProfile:b28fdc3c-e52e-4e83-88c8-033e78be27a7 (5.2161ms), Data >>","module":"events","timestamp":"2025-04-21T23:01:26.330Z"}
+{"level":"silly","message":{"data":{"avatar_url":"https://i.fivemanage.com/images/3ClWwmpwkFhL.png","createdAt":"2025-04-13T10:28:40.000Z","id":1,"identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","profile_name":"Francis_Mamad","updatedAt":"2025-04-13T10:28:40.000Z"},"status":"ok"},"module":"events","timestamp":"2025-04-21T23:01:26.330Z"}
+{"level":"info","message":"Executed query (\n        SELECT *,\n               UNIX_TIMESTAMP(updatedAt) AS lastActive\n        FROM npwd_match_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 9.4424ms'","module":"DBInterface","timestamp":"2025-04-21T23:01:26.335Z"}
+{"level":"silly","message":"Response Promise Event phone:getMyProfile:21513cfe-5c35-4c3e-bc95-b389b24c8a4b (10.395ms), Data >>","module":"events","timestamp":"2025-04-21T23:01:26.336Z"}
+{"level":"silly","message":{"data":{"bio":"","createdAt":"2025-04-13T10:28:40.000Z","id":1,"identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","image":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg","job":"","lastActive":1744540120,"lastActiveFormatted":"Sun, 13 Apr 2025 10:28:40 GMT","location":"","name":"Francis Mamad","tagList":[],"tags":"","updatedAt":"2025-04-13T10:28:40.000Z","viewed":false,"voiceMessage":null},"status":"ok"},"module":"events","timestamp":"2025-04-21T23:01:26.336Z"}
+{"level":"info","message":"Executed query (SELECT * FROM npwd_phone_contacts WHERE identifier = ? ORDER BY display ASC [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 10.8412ms'","module":"DBInterface","timestamp":"2025-04-21T23:01:26.337Z"}
+{"level":"silly","message":"Response Promise Event npwd-contact-getAll:3dd247e0-90b3-441e-ab43-43bcd1229b1e (11.1978ms), Data >>","module":"events","timestamp":"2025-04-21T23:01:26.337Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-04-21T23:01:26.337Z"}
+{"level":"info","message":"Executed query (SELECT npwd_messages_conversations.id,\n                          npwd_messages_conversations.conversation_list         as conversationList,\n                          npwd_messages_participants.unread_count               as unreadCount,\n                          npwd_messages_conversations.is_group_chat             as isGroupChat,\n                          npwd_messages_conversations.label,\n                          UNIX_TIMESTAMP(npwd_messages_conversations.updatedAt) as updatedAt,\n                          npwd_messages_participants.participant\n                   FROM npwd_messages_conversations\n                            INNER JOIN npwd_messages_participants\n                                       on npwd_messages_conversations.id = npwd_messages_participants.conversation_id\n                   WHERE npwd_messages_participants.participant = ? [\"862-952-74\"]) in 13.2089ms'","module":"DBInterface","timestamp":"2025-04-21T23:01:26.339Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchMessageGroups:3bdf8349-1b54-4a0f-91cf-33e9a40f0081 (13.5948ms), Data >>","module":"events","timestamp":"2025-04-21T23:01:26.339Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-04-21T23:01:26.340Z"}
+{"level":"info","message":"Executed query (SELECT id FROM npwd_marketplace_listings WHERE identifier = ? [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 7.7773ms'","module":"DBInterface","timestamp":"2025-04-21T23:06:41.894Z"}
+{"level":"info","message":"Executed query (DELETE FROM npwd_marketplace_listings WHERE identifier = ? AND reported = 0 [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 0.7406ms'","module":"DBInterface","timestamp":"2025-04-21T23:06:41.895Z"}
+{"level":"info","message":"Unloaded NPWD Player, source: (1)","module":"player","timestamp":"2025-04-21T23:06:41.895Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-04-22T07:42:15.340Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-04-22T07:42:15.341Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-04-22T07:42:15.341Z"}
+{"level":"info","message":"Loading ESX bridge....","timestamp":"2025-04-22T07:42:15.342Z"}
+{"level":"info","message":"ESX bridge initialized","timestamp":"2025-04-22T07:42:15.342Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-04-22T07:42:15.342Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-04-22T07:42:15.342Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-04-22T07:42:15.342Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-04-22T07:42:15.343Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-04-22T07:42:15.357Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-04-22T07:42:15.357Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-04-22T07:42:15.358Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-04-22T07:42:15.819Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-04-22T07:42:15.833Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 98.0011ms'","module":"DBInterface","timestamp":"2025-04-22T07:42:15.918Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 2.6972ms'","module":"DBInterface","timestamp":"2025-04-22T07:42:15.921Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-22T07:42:15.921Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-04-22T07:44:30.762Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-04-22T07:44:30.764Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-04-22T07:44:30.764Z"}
+{"level":"info","message":"Loading ESX bridge....","timestamp":"2025-04-22T07:44:30.764Z"}
+{"level":"info","message":"ESX bridge initialized","timestamp":"2025-04-22T07:44:30.764Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-04-22T07:44:30.765Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-04-22T07:44:30.765Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-04-22T07:44:30.765Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-04-22T07:44:30.765Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-04-22T07:44:30.780Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-04-22T07:44:30.781Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-04-22T07:44:30.781Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-04-22T07:44:31.055Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-04-22T07:44:31.069Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 101.1841ms'","module":"DBInterface","timestamp":"2025-04-22T07:44:31.157Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 2.5938ms'","module":"DBInterface","timestamp":"2025-04-22T07:44:31.160Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-22T07:44:31.160Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-04-22T07:46:19.903Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-04-22T07:46:19.904Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-04-22T07:46:19.904Z"}
+{"level":"info","message":"Loading ESX bridge....","timestamp":"2025-04-22T07:46:19.904Z"}
+{"level":"info","message":"ESX bridge initialized","timestamp":"2025-04-22T07:46:19.905Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-04-22T07:46:19.905Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-04-22T07:46:19.905Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-04-22T07:46:19.905Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-04-22T07:46:19.905Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-04-22T07:46:19.921Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-04-22T07:46:19.921Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-04-22T07:46:19.922Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-04-22T07:46:20.187Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-04-22T07:46:20.201Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 100.7859ms'","module":"DBInterface","timestamp":"2025-04-22T07:46:20.289Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 2.5003ms'","module":"DBInterface","timestamp":"2025-04-22T07:46:20.291Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-22T07:46:20.291Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-04-22T07:49:11.758Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-04-22T07:49:11.759Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-04-22T07:49:11.760Z"}
+{"level":"info","message":"Loading ESX bridge....","timestamp":"2025-04-22T07:49:11.760Z"}
+{"level":"info","message":"ESX bridge initialized","timestamp":"2025-04-22T07:49:11.760Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-04-22T07:49:11.760Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-04-22T07:49:11.760Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-04-22T07:49:11.761Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-04-22T07:49:11.761Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-04-22T07:49:11.774Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-04-22T07:49:11.774Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-04-22T07:49:11.775Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-04-22T07:49:12.031Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-04-22T07:49:12.044Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 93.5209ms'","module":"DBInterface","timestamp":"2025-04-22T07:49:12.125Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 3.3509ms'","module":"DBInterface","timestamp":"2025-04-22T07:49:12.128Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-22T07:49:12.129Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-04-22T08:06:06.832Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-04-22T08:06:06.833Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-04-22T08:06:06.834Z"}
+{"level":"info","message":"Loading ESX bridge....","timestamp":"2025-04-22T08:06:06.834Z"}
+{"level":"info","message":"ESX bridge initialized","timestamp":"2025-04-22T08:06:06.834Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-04-22T08:06:06.834Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-04-22T08:06:06.834Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-04-22T08:06:06.835Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-04-22T08:06:06.835Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-04-22T08:06:06.847Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-04-22T08:06:06.848Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-04-22T08:06:06.848Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-04-22T08:06:07.095Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-04-22T08:06:07.109Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 99.7412ms'","module":"DBInterface","timestamp":"2025-04-22T08:06:07.196Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 2.4331ms'","module":"DBInterface","timestamp":"2025-04-22T08:06:07.198Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-22T08:06:07.199Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-04-22T08:07:55.962Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-04-22T08:07:55.964Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-04-22T08:07:55.964Z"}
+{"level":"info","message":"Loading ESX bridge....","timestamp":"2025-04-22T08:07:55.964Z"}
+{"level":"info","message":"ESX bridge initialized","timestamp":"2025-04-22T08:07:55.964Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-04-22T08:07:55.964Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-04-22T08:07:55.964Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-04-22T08:07:55.965Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-04-22T08:07:55.965Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-04-22T08:07:55.978Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-04-22T08:07:55.978Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-04-22T08:07:55.979Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-04-22T08:07:56.247Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-04-22T08:07:56.264Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 118.8874ms'","module":"DBInterface","timestamp":"2025-04-22T08:07:56.367Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 3.0839ms'","module":"DBInterface","timestamp":"2025-04-22T08:07:56.370Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-22T08:07:56.371Z"}
+{"level":"info","message":"Executed query (SELECT phone_number FROM users WHERE identifier = ? LIMIT 1 [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 16.4249ms'","module":"DBInterface","timestamp":"2025-04-22T08:09:01.446Z"}
+{"level":"debug","message":"Find user for number generation data >","module":"player","timestamp":"2025-04-22T08:09:01.446Z"}
+{"level":"info","message":"Executed query (SELECT phone_number FROM users WHERE identifier = ? LIMIT 1 [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 11.0045ms'","module":"DBInterface","timestamp":"2025-04-22T08:09:01.448Z"}
+{"level":"debug","message":[{"phone_number":"862-952-74"}],"module":"player","timestamp":"2025-04-22T08:09:01.446Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (56fc78a03fae9ac861ff2a63fdb6b251cb30e085)","module":"player","timestamp":"2025-04-22T08:09:01.446Z"}
+{"level":"debug","message":{"_firstname":"Mamad","_identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","_lastname":"Mamad","_phoneNumber":"862-952-74","source":1,"username":"Tiago Garcia"},"module":"player","timestamp":"2025-04-22T08:09:01.446Z"}
+{"level":"debug","message":"Find user for number generation data >","module":"player","timestamp":"2025-04-22T08:09:01.448Z"}
+{"level":"debug","message":[{"phone_number":"862-952-74"}],"module":"player","timestamp":"2025-04-22T08:09:01.448Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (56fc78a03fae9ac861ff2a63fdb6b251cb30e085)","module":"player","timestamp":"2025-04-22T08:09:01.448Z"}
+{"level":"debug","message":{"_firstname":"Francis","_identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","_lastname":"Mamad","_phoneNumber":"862-952-74","source":1,"username":"Tiago Garcia"},"module":"player","timestamp":"2025-04-22T08:09:01.448Z"}
+{"level":"info","message":"Executed query (SELECT phone_number FROM users WHERE identifier = ? LIMIT 1 [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 18.7705ms'","module":"DBInterface","timestamp":"2025-04-22T08:09:01.451Z"}
+{"level":"debug","message":"Find user for number generation data >","module":"player","timestamp":"2025-04-22T08:09:01.451Z"}
+{"level":"debug","message":[{"phone_number":"862-952-74"}],"module":"player","timestamp":"2025-04-22T08:09:01.451Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (56fc78a03fae9ac861ff2a63fdb6b251cb30e085)","module":"player","timestamp":"2025-04-22T08:09:01.451Z"}
+{"level":"debug","message":{"_firstname":"Francis","_identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","_lastname":"Mamad","_phoneNumber":"862-952-74","source":1,"username":"Tiago Garcia"},"module":"player","timestamp":"2025-04-22T08:09:01.451Z"}
+{"level":"silly","message":"netPromise > npwd:fetchTweets > RequestObj","module":"events","timestamp":"2025-04-22T08:09:01.723Z"}
+{"level":"silly","message":{"data":{"pageId":0},"source":1},"module":"events","timestamp":"2025-04-22T08:09:01.724Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 3.5454ms'","module":"DBInterface","timestamp":"2025-04-22T08:09:01.728Z"}
+{"level":"info","message":"Executed query (\n        SELECT \n  npwd_twitter_tweets.id,\n  npwd_twitter_tweets.identifier,\n  npwd_twitter_profiles.id AS profile_id,\n  npwd_twitter_profiles.profile_name,\n  npwd_twitter_profiles.avatar_url,\n  npwd_twitter_tweets.likes,\n  npwd_twitter_tweets.visible,\n  IFNULL(COALESCE(retweets.message, npwd_twitter_tweets.message), '') AS message,\n  IFNULL(COALESCE(retweets.images, npwd_twitter_tweets.images), '') AS images,\n  npwd_twitter_tweets.retweet IS NOT NULL AS isRetweet,\n  retweets.id AS retweetId,\n  retweets_profiles.profile_name AS retweetProfileName,\n  retweets_profiles.avatar_url AS retweetAvatarUrl,\n  npwd_twitter_likes.id IS NOT NULL AS isLiked,\n  npwd_twitter_reports.id IS NOT NULL AS isReported,\n  npwd_twitter_tweets.createdAt,\n  npwd_twitter_tweets.updatedAt,\n  TIME_TO_SEC(TIMEDIFF( NOW(), npwd_twitter_tweets.createdAt)) AS seconds_since_tweet\n\n        FROM npwd_twitter_tweets\n                 LEFT OUTER JOIN npwd_twitter_profiles\n                                 ON npwd_twitter_tweets.identifier = npwd_twitter_profiles.identifier\n                 LEFT OUTER JOIN npwd_twitter_likes ON npwd_twitter_tweets.id = npwd_twitter_likes.tweet_id AND\n                                                       npwd_twitter_likes.profile_id = ?\n                 LEFT OUTER JOIN npwd_twitter_reports ON npwd_twitter_tweets.id = npwd_twitter_reports.tweet_id AND\n                                                         npwd_twitter_reports.profile_id = ?\n                 LEFT OUTER JOIN npwd_twitter_tweets AS retweets ON retweets.id = npwd_twitter_tweets.retweet\n                 LEFT OUTER JOIN npwd_twitter_profiles AS retweets_profiles\n                                 ON retweets.identifier = retweets_profiles.identifier\n        WHERE npwd_twitter_tweets.visible = 1\n        ORDER BY id DESC\n        LIMIT ? OFFSET ?\n\t\t [1,1,\"25\",\"0\"]) in 4.1877ms'","module":"DBInterface","timestamp":"2025-04-22T08:09:01.732Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchTweets:4efc1018-b1fa-4714-87e2-7a3203617cc7 (9.1806ms), Data >>","module":"events","timestamp":"2025-04-22T08:09:01.733Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-04-22T08:09:01.733Z"}
+{"level":"silly","message":"netPromise > npwd:getOrCreateTwitterProfile > RequestObj","module":"events","timestamp":"2025-04-22T08:09:01.783Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-04-22T08:09:01.784Z"}
+{"level":"silly","message":"netPromise > phone:getMyProfile > RequestObj","module":"events","timestamp":"2025-04-22T08:09:01.784Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-04-22T08:09:01.784Z"}
+{"level":"silly","message":"netPromise > npwd:fetchMessageGroups > RequestObj","module":"events","timestamp":"2025-04-22T08:09:01.785Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-04-22T08:09:01.785Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 3.4446ms'","module":"DBInterface","timestamp":"2025-04-22T08:09:01.787Z"}
+{"level":"silly","message":"Response Promise Event npwd:getOrCreateTwitterProfile:2edab3fe-fa7b-4f39-9656-3cdba21fd6e0 (4.2361ms), Data >>","module":"events","timestamp":"2025-04-22T08:09:01.788Z"}
+{"level":"silly","message":{"data":{"avatar_url":"https://i.fivemanage.com/images/3ClWwmpwkFhL.png","createdAt":"2025-04-13T10:28:40.000Z","id":1,"identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","profile_name":"Francis_Mamad","updatedAt":"2025-04-13T10:28:40.000Z"},"status":"ok"},"module":"events","timestamp":"2025-04-22T08:09:01.789Z"}
+{"level":"info","message":"Executed query (SELECT npwd_messages_conversations.id,\n                          npwd_messages_conversations.conversation_list         as conversationList,\n                          npwd_messages_participants.unread_count               as unreadCount,\n                          npwd_messages_conversations.is_group_chat             as isGroupChat,\n                          npwd_messages_conversations.label,\n                          UNIX_TIMESTAMP(npwd_messages_conversations.updatedAt) as updatedAt,\n                          npwd_messages_participants.participant\n                   FROM npwd_messages_conversations\n                            INNER JOIN npwd_messages_participants\n                                       on npwd_messages_conversations.id = npwd_messages_participants.conversation_id\n                   WHERE npwd_messages_participants.participant = ? [\"862-952-74\"]) in 5.6661ms'","module":"DBInterface","timestamp":"2025-04-22T08:09:01.791Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchMessageGroups:e221811b-1fa4-4cce-8146-a5cb831641f1 (6.3209ms), Data >>","module":"events","timestamp":"2025-04-22T08:09:01.791Z"}
+{"level":"info","message":"Executed query (\n        SELECT *,\n               UNIX_TIMESTAMP(updatedAt) AS lastActive\n        FROM npwd_match_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 7.9089ms'","module":"DBInterface","timestamp":"2025-04-22T08:09:01.792Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-04-22T08:09:01.791Z"}
+{"level":"silly","message":"Response Promise Event phone:getMyProfile:60474504-2793-4387-9c4a-5972d36a9b00 (9.2061ms), Data >>","module":"events","timestamp":"2025-04-22T08:09:01.793Z"}
+{"level":"silly","message":{"data":{"bio":"","createdAt":"2025-04-13T10:28:40.000Z","id":1,"identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","image":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg","job":"","lastActive":1744540120,"lastActiveFormatted":"Sun, 13 Apr 2025 10:28:40 GMT","location":"","name":"Francis Mamad","tagList":[],"tags":"","updatedAt":"2025-04-13T10:28:40.000Z","viewed":false,"voiceMessage":null},"status":"ok"},"module":"events","timestamp":"2025-04-22T08:09:01.794Z"}
+{"level":"silly","message":"netPromise > npwd-contact-getAll > RequestObj","module":"events","timestamp":"2025-04-22T08:09:01.847Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-04-22T08:09:01.847Z"}
+{"level":"info","message":"Executed query (SELECT * FROM npwd_phone_contacts WHERE identifier = ? ORDER BY display ASC [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 3.4134ms'","module":"DBInterface","timestamp":"2025-04-22T08:09:01.852Z"}
+{"level":"silly","message":"Response Promise Event npwd-contact-getAll:0fe30a21-ca7b-44a2-ab9c-7ff8707897e3 (4.6063ms), Data >>","module":"events","timestamp":"2025-04-22T08:09:01.852Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-04-22T08:09:01.852Z"}
+{"level":"info","message":"Executed query (SELECT id FROM npwd_marketplace_listings WHERE identifier = ? [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 36.9218ms'","module":"DBInterface","timestamp":"2025-04-22T08:24:05.505Z"}
+{"level":"info","message":"Executed query (DELETE FROM npwd_marketplace_listings WHERE identifier = ? AND reported = 0 [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 0.9287ms'","module":"DBInterface","timestamp":"2025-04-22T08:24:05.506Z"}
+{"level":"info","message":"Unloaded NPWD Player, source: (1)","module":"player","timestamp":"2025-04-22T08:24:05.506Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-04-22T09:17:47.651Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-04-22T09:17:47.652Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-04-22T09:17:47.652Z"}
+{"level":"info","message":"Loading ESX bridge....","timestamp":"2025-04-22T09:17:47.653Z"}
+{"level":"info","message":"ESX bridge initialized","timestamp":"2025-04-22T09:17:47.653Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-04-22T09:17:47.653Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-04-22T09:17:47.653Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-04-22T09:17:47.653Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-04-22T09:17:47.654Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-04-22T09:17:47.669Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-04-22T09:17:47.669Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-04-22T09:17:47.669Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-04-22T09:17:48.002Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-04-22T09:17:48.015Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 93.318ms'","module":"DBInterface","timestamp":"2025-04-22T09:17:48.096Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 2.4085ms'","module":"DBInterface","timestamp":"2025-04-22T09:17:48.099Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-22T09:17:48.099Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-04-22T09:18:36.934Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-04-22T09:18:36.936Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-04-22T09:18:36.936Z"}
+{"level":"info","message":"Loading ESX bridge....","timestamp":"2025-04-22T09:18:36.936Z"}
+{"level":"info","message":"ESX bridge initialized","timestamp":"2025-04-22T09:18:36.936Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-04-22T09:18:36.936Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-04-22T09:18:36.937Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-04-22T09:18:36.937Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-04-22T09:18:36.937Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-04-22T09:18:36.952Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-04-22T09:18:36.952Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-04-22T09:18:36.952Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-04-22T09:18:37.205Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-04-22T09:18:37.218Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 103.8298ms'","module":"DBInterface","timestamp":"2025-04-22T09:18:37.310Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 3.6711ms'","module":"DBInterface","timestamp":"2025-04-22T09:18:37.314Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-22T09:18:37.314Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-04-22T09:20:08.497Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-04-22T09:20:08.498Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-04-22T09:20:08.498Z"}
+{"level":"info","message":"Loading ESX bridge....","timestamp":"2025-04-22T09:20:08.499Z"}
+{"level":"info","message":"ESX bridge initialized","timestamp":"2025-04-22T09:20:08.499Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-04-22T09:20:08.499Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-04-22T09:20:08.499Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-04-22T09:20:08.500Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-04-22T09:20:08.500Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-04-22T09:20:08.516Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-04-22T09:20:08.516Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-04-22T09:20:08.517Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-04-22T09:20:08.764Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-04-22T09:20:08.777Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 100.846ms'","module":"DBInterface","timestamp":"2025-04-22T09:20:08.866Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 3.4843ms'","module":"DBInterface","timestamp":"2025-04-22T09:20:08.870Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-22T09:20:08.870Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-04-22T09:23:40.031Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-04-22T09:23:40.032Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-04-22T09:23:40.032Z"}
+{"level":"info","message":"Loading ESX bridge....","timestamp":"2025-04-22T09:23:40.033Z"}
+{"level":"info","message":"ESX bridge initialized","timestamp":"2025-04-22T09:23:40.033Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-04-22T09:23:40.033Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-04-22T09:23:40.033Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-04-22T09:23:40.033Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-04-22T09:23:40.034Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-04-22T09:23:40.048Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-04-22T09:23:40.049Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-04-22T09:23:40.049Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-04-22T09:23:40.303Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-04-22T09:23:40.317Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 102.4464ms'","module":"DBInterface","timestamp":"2025-04-22T09:23:40.406Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 3.3617ms'","module":"DBInterface","timestamp":"2025-04-22T09:23:40.409Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-22T09:23:40.410Z"}
+{"level":"debug","message":"Marketplace service started","module":"marketplace","timestamp":"2025-04-22T09:33:36.199Z"}
+{"level":"debug","message":"Call service started","module":"calls","timestamp":"2025-04-22T09:33:36.201Z"}
+{"level":"debug","message":"Player Service started","module":"player","timestamp":"2025-04-22T09:33:36.201Z"}
+{"level":"info","message":"Loading ESX bridge....","timestamp":"2025-04-22T09:33:36.202Z"}
+{"level":"info","message":"ESX bridge initialized","timestamp":"2025-04-22T09:33:36.202Z"}
+{"level":"debug","message":"Boot service started","module":"boot","timestamp":"2025-04-22T09:33:36.202Z"}
+{"level":"debug","message":"Messages service started","module":"messages","timestamp":"2025-04-22T09:33:36.202Z"}
+{"level":"debug","message":"Notes service started","module":"notes","timestamp":"2025-04-22T09:33:36.203Z"}
+{"level":"debug","message":"Contacts service started","module":"contact","timestamp":"2025-04-22T09:33:36.203Z"}
+{"level":"debug","message":"Photo service started","module":"photo","timestamp":"2025-04-22T09:33:36.221Z"}
+{"level":"debug","message":"Twitter service started","module":"twitter","timestamp":"2025-04-22T09:33:36.221Z"}
+{"level":"debug","message":"Match service started","module":"match","timestamp":"2025-04-22T09:33:36.222Z"}
+{"level":"debug","message":"Beginning database schema validation","module":"boot","timestamp":"2025-04-22T09:33:36.558Z"}
+{"level":"info","message":"Successfully started","timestamp":"2025-04-22T09:33:36.576Z"}
+{"level":"info","message":"Executed query (SELECT COUNT(*) as count\n                       FROM information_schema.tables\n                       WHERE table_schema = ?\n                         AND table_name = ? [\"zerworldrp\",\"users\"]) in 128.5783ms'","module":"DBInterface","timestamp":"2025-04-22T09:33:36.687Z"}
+{"level":"info","message":"Executed query (SHOW COLUMNS IN users []) in 5.0888ms'","module":"DBInterface","timestamp":"2025-04-22T09:33:36.693Z"}
+{"level":"debug","message":"Database schema successfully validated","module":"boot","timestamp":"2025-04-22T09:33:36.693Z"}
+{"level":"info","message":"Executed query (SELECT phone_number FROM users WHERE identifier = ? LIMIT 1 [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 21.6851ms'","module":"DBInterface","timestamp":"2025-04-22T09:34:49.375Z"}
+{"level":"debug","message":"Find user for number generation data >","module":"player","timestamp":"2025-04-22T09:34:49.375Z"}
+{"level":"debug","message":[{"phone_number":"862-952-74"}],"module":"player","timestamp":"2025-04-22T09:34:49.375Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (56fc78a03fae9ac861ff2a63fdb6b251cb30e085)","module":"player","timestamp":"2025-04-22T09:34:49.375Z"}
+{"level":"debug","message":{"_firstname":"Mamad","_identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","_lastname":"Mamad","_phoneNumber":"862-952-74","source":1,"username":"Tiago Garcia"},"module":"player","timestamp":"2025-04-22T09:34:49.376Z"}
+{"level":"info","message":"Executed query (SELECT phone_number FROM users WHERE identifier = ? LIMIT 1 [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 21.7112ms'","module":"DBInterface","timestamp":"2025-04-22T09:34:49.379Z"}
+{"level":"debug","message":"Find user for number generation data >","module":"player","timestamp":"2025-04-22T09:34:49.379Z"}
+{"level":"info","message":"Executed query (SELECT phone_number FROM users WHERE identifier = ? LIMIT 1 [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 16.0114ms'","module":"DBInterface","timestamp":"2025-04-22T09:34:49.380Z"}
+{"level":"debug","message":[{"phone_number":"862-952-74"}],"module":"player","timestamp":"2025-04-22T09:34:49.379Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (56fc78a03fae9ac861ff2a63fdb6b251cb30e085)","module":"player","timestamp":"2025-04-22T09:34:49.379Z"}
+{"level":"debug","message":{"_firstname":"Francis","_identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","_lastname":"Mamad","_phoneNumber":"862-952-74","source":1,"username":"Tiago Garcia"},"module":"player","timestamp":"2025-04-22T09:34:49.379Z"}
+{"level":"debug","message":"Find user for number generation data >","module":"player","timestamp":"2025-04-22T09:34:49.380Z"}
+{"level":"debug","message":[{"phone_number":"862-952-74"}],"module":"player","timestamp":"2025-04-22T09:34:49.380Z"}
+{"level":"info","message":"New NPWD Player added through event (1) (56fc78a03fae9ac861ff2a63fdb6b251cb30e085)","module":"player","timestamp":"2025-04-22T09:34:49.380Z"}
+{"level":"debug","message":{"_firstname":"Francis","_identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","_lastname":"Mamad","_phoneNumber":"862-952-74","source":1,"username":"Tiago Garcia"},"module":"player","timestamp":"2025-04-22T09:34:49.380Z"}
+{"level":"silly","message":"netPromise > npwd:fetchTweets > RequestObj","module":"events","timestamp":"2025-04-22T09:34:49.837Z"}
+{"level":"silly","message":{"data":{"pageId":0},"source":1},"module":"events","timestamp":"2025-04-22T09:34:49.837Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 3.3487ms'","module":"DBInterface","timestamp":"2025-04-22T09:34:49.841Z"}
+{"level":"info","message":"Executed query (\n        SELECT \n  npwd_twitter_tweets.id,\n  npwd_twitter_tweets.identifier,\n  npwd_twitter_profiles.id AS profile_id,\n  npwd_twitter_profiles.profile_name,\n  npwd_twitter_profiles.avatar_url,\n  npwd_twitter_tweets.likes,\n  npwd_twitter_tweets.visible,\n  IFNULL(COALESCE(retweets.message, npwd_twitter_tweets.message), '') AS message,\n  IFNULL(COALESCE(retweets.images, npwd_twitter_tweets.images), '') AS images,\n  npwd_twitter_tweets.retweet IS NOT NULL AS isRetweet,\n  retweets.id AS retweetId,\n  retweets_profiles.profile_name AS retweetProfileName,\n  retweets_profiles.avatar_url AS retweetAvatarUrl,\n  npwd_twitter_likes.id IS NOT NULL AS isLiked,\n  npwd_twitter_reports.id IS NOT NULL AS isReported,\n  npwd_twitter_tweets.createdAt,\n  npwd_twitter_tweets.updatedAt,\n  TIME_TO_SEC(TIMEDIFF( NOW(), npwd_twitter_tweets.createdAt)) AS seconds_since_tweet\n\n        FROM npwd_twitter_tweets\n                 LEFT OUTER JOIN npwd_twitter_profiles\n                                 ON npwd_twitter_tweets.identifier = npwd_twitter_profiles.identifier\n                 LEFT OUTER JOIN npwd_twitter_likes ON npwd_twitter_tweets.id = npwd_twitter_likes.tweet_id AND\n                                                       npwd_twitter_likes.profile_id = ?\n                 LEFT OUTER JOIN npwd_twitter_reports ON npwd_twitter_tweets.id = npwd_twitter_reports.tweet_id AND\n                                                         npwd_twitter_reports.profile_id = ?\n                 LEFT OUTER JOIN npwd_twitter_tweets AS retweets ON retweets.id = npwd_twitter_tweets.retweet\n                 LEFT OUTER JOIN npwd_twitter_profiles AS retweets_profiles\n                                 ON retweets.identifier = retweets_profiles.identifier\n        WHERE npwd_twitter_tweets.visible = 1\n        ORDER BY id DESC\n        LIMIT ? OFFSET ?\n\t\t [1,1,\"25\",\"0\"]) in 4.5212ms'","module":"DBInterface","timestamp":"2025-04-22T09:34:49.846Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchTweets:bd80cf09-7a8b-4906-85ac-c1554499f0a0 (8.9129ms), Data >>","module":"events","timestamp":"2025-04-22T09:34:49.846Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-04-22T09:34:49.846Z"}
+{"level":"silly","message":"netPromise > npwd:getOrCreateTwitterProfile > RequestObj","module":"events","timestamp":"2025-04-22T09:34:49.937Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-04-22T09:34:49.937Z"}
+{"level":"silly","message":"netPromise > phone:getMyProfile > RequestObj","module":"events","timestamp":"2025-04-22T09:34:49.938Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-04-22T09:34:49.938Z"}
+{"level":"silly","message":"netPromise > npwd:fetchMessageGroups > RequestObj","module":"events","timestamp":"2025-04-22T09:34:49.938Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-04-22T09:34:49.938Z"}
+{"level":"silly","message":"netPromise > npwd-contact-getAll > RequestObj","module":"events","timestamp":"2025-04-22T09:34:49.939Z"}
+{"level":"silly","message":{"data":null,"source":1},"module":"events","timestamp":"2025-04-22T09:34:49.939Z"}
+{"level":"info","message":"Executed query (\n        SELECT *\n        FROM npwd_twitter_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 3.7917ms'","module":"DBInterface","timestamp":"2025-04-22T09:34:49.941Z"}
+{"level":"silly","message":"Response Promise Event npwd:getOrCreateTwitterProfile:37f5cc02-35c9-4a2a-acd1-fb9022bd8e53 (4.5339ms), Data >>","module":"events","timestamp":"2025-04-22T09:34:49.942Z"}
+{"level":"silly","message":{"data":{"avatar_url":"https://i.fivemanage.com/images/3ClWwmpwkFhL.png","createdAt":"2025-04-13T10:28:40.000Z","id":1,"identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","profile_name":"Francis_Mamad","updatedAt":"2025-04-13T10:28:40.000Z"},"status":"ok"},"module":"events","timestamp":"2025-04-22T09:34:49.942Z"}
+{"level":"info","message":"Executed query (\n        SELECT *,\n               UNIX_TIMESTAMP(updatedAt) AS lastActive\n        FROM npwd_match_profiles\n        WHERE identifier = ?\n        LIMIT 1\n\t\t [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 7.1073ms'","module":"DBInterface","timestamp":"2025-04-22T09:34:49.945Z"}
+{"level":"silly","message":"Response Promise Event phone:getMyProfile:5e98c51d-c5b2-40e5-9e91-ec9ddf6fd56f (8.418ms), Data >>","module":"events","timestamp":"2025-04-22T09:34:49.946Z"}
+{"level":"info","message":"Executed query (SELECT npwd_messages_conversations.id,\n                          npwd_messages_conversations.conversation_list         as conversationList,\n                          npwd_messages_participants.unread_count               as unreadCount,\n                          npwd_messages_conversations.is_group_chat             as isGroupChat,\n                          npwd_messages_conversations.label,\n                          UNIX_TIMESTAMP(npwd_messages_conversations.updatedAt) as updatedAt,\n                          npwd_messages_participants.participant\n                   FROM npwd_messages_conversations\n                            INNER JOIN npwd_messages_participants\n                                       on npwd_messages_conversations.id = npwd_messages_participants.conversation_id\n                   WHERE npwd_messages_participants.participant = ? [\"862-952-74\"]) in 8.8578ms'","module":"DBInterface","timestamp":"2025-04-22T09:34:49.947Z"}
+{"level":"silly","message":{"data":{"bio":"","createdAt":"2025-04-13T10:28:40.000Z","id":1,"identifier":"56fc78a03fae9ac861ff2a63fdb6b251cb30e085","image":"https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg","job":"","lastActive":1744540120,"lastActiveFormatted":"Sun, 13 Apr 2025 10:28:40 GMT","location":"","name":"Francis Mamad","tagList":[],"tags":"","updatedAt":"2025-04-13T10:28:40.000Z","viewed":false,"voiceMessage":null},"status":"ok"},"module":"events","timestamp":"2025-04-22T09:34:49.947Z"}
+{"level":"silly","message":"Response Promise Event npwd:fetchMessageGroups:59bce809-b1cb-416d-b3c9-c721afb6d049 (9.3032ms), Data >>","module":"events","timestamp":"2025-04-22T09:34:49.948Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-04-22T09:34:49.948Z"}
+{"level":"info","message":"Executed query (SELECT * FROM npwd_phone_contacts WHERE identifier = ? ORDER BY display ASC [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 11.806ms'","module":"DBInterface","timestamp":"2025-04-22T09:34:49.951Z"}
+{"level":"silly","message":"Response Promise Event npwd-contact-getAll:29eb3859-88b2-44a5-81c6-d4518536d7d2 (12.2803ms), Data >>","module":"events","timestamp":"2025-04-22T09:34:49.951Z"}
+{"level":"silly","message":{"data":[],"status":"ok"},"module":"events","timestamp":"2025-04-22T09:34:49.951Z"}
+{"level":"info","message":"Executed query (SELECT id FROM npwd_marketplace_listings WHERE identifier = ? [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 5.177ms'","module":"DBInterface","timestamp":"2025-04-22T09:46:12.652Z"}
+{"level":"info","message":"Executed query (DELETE FROM npwd_marketplace_listings WHERE identifier = ? AND reported = 0 [\"56fc78a03fae9ac861ff2a63fdb6b251cb30e085\"]) in 1.314ms'","module":"DBInterface","timestamp":"2025-04-22T09:46:12.653Z"}
+{"level":"info","message":"Unloaded NPWD Player, source: (1)","module":"player","timestamp":"2025-04-22T09:46:12.654Z"}

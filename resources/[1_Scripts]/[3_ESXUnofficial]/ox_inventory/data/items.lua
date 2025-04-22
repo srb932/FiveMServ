@@ -425,4 +425,25 @@ return {
 		stack = true,
 		close = true,
 	},
+
+	["diamond_case"] = {
+		label = "Caisse Diamond",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["gold_case"] = {
+		label = "Caisse Gold",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["ruby_case"] = {
+		label = "Caisse Ruby",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
 }
